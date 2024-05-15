@@ -112,7 +112,7 @@ function KatalogMain({ allItem, ...props }) {
                     onClick={() => {
                         setIsOpenPopup(true);
                         setDetailProductData(data);
-                        getLenis().stop();
+                        // getLenis().stop();
                     }}
                 />
             ))

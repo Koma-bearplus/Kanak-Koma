@@ -99,7 +99,7 @@ function ProductPopup({ data, isActive, setIsActive }) {
                             </svg>
                         </button>
                         <div className="popup-itemdtl-wrap">
-                            <div className="popup-itemdtl-wrap-inner">
+                            <div className="popup-itemdtl-wrap-inner" data-lenis-prevent="true">
                                 <div className="heading h3 txt-black txt-up popup-itemdtl-title">{data.title}</div>
                                 <div className="popup-itemdtl-card">
                                     <div className="popup-itemdtl-card-img"
